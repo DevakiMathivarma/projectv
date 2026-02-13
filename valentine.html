@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>For the Love of My Life ❤️</title>
+    <link rel="stylesheet" href="css/valentine.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND HEARTS -->
+    <canvas id="heartCanvas"></canvas>
+
+    <!-- 🎞️ SCENE 1 -->
+    <section class="scene scene-1">
+        <div class="hero-glass">
+            <h1 class="hero-title">
+                Happy Valentine’s Day
+                <span>My Love ❤️</span>
+            </h1>
+
+            <p class="hero-sub">
+                5 years of marriage · a lifetime of love
+            </p>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <span></span>
+                </div>
+                <p>Scroll to begin our story</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 💑 SCENE 2 -->
+    <!-- <section class="scene scene-2">
+  <h2 class="scene-title">Our Love Story</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <img src="assets/images/love1.jpg">
+      <p>The day we met — and everything changed.</p>
+    </div>
+    <div class="timeline-item">
+      <img src="assets/images/love2.jpg">
+      <p>Our first memories, filled with laughter.</p>
+    </div>
+    <div class="timeline-item">
+      <img src="assets/images/love3.jpg">
+      <p>From strangers to soulmates… I still choose you every day.</p>
+    </div>
+  </div>
+</section> -->
+    <section class="scene scene-2">
+        <h2 class="scene-title">Our Love Story</h2>
+
+        <!-- MEMORY 1 : STORYBOOK SPLIT -->
+        <div class="memory storybook reveal">
+            <div class="memory-img" data-gallery="gallery1">
+                <img src="assets/images/love2.JPG">
+            </div>
+            <div class="memory-text">
+                <p>The day Our Life Beguns</p>
+            </div>
+        </div>
+
+        <!-- MEMORY 2 : FILM STRIP -->
+        <div class="memory filmstrip reveal reverse">
+
+            <div class="memory-img" data-gallery="gallery2">
+                <img src="assets\images\loves.jpeg">
+            </div>
+            <div class="memory-text">
+                <p>Our first memories, filled with laughter and fun.</p>
+            </div>
+        </div>
+
+        <!-- MEMORY 3 : POLAROID WALL -->
+        <div class="memory polaroid reveal">
+            <div class="memory-img" data-gallery="gallery3">
+                <img src="assets/images/aus.jpeg">
+            </div>
+            <div class="memory-text">
+                <p>Little moments that became lifelong memories.</p>
+            </div>
+        </div>
+
+        <!-- MEMORY 4 : HEARTBEAT CENTER -->
+        <div class="memory heartbeat reveal">
+
+            <p class="heartbeat-text">
+                From strangers to soulmates… I still choose you every day.
+            </p>
+            <div class="memory-img center" data-gallery="gallery4">
+                <img src="assets/images/soul.jpeg">
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY MODAL -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="gallery-box">
+            <button class="close-heart" id="closeGallery">❤️</button>
+            <div class="gallery-content" id="galleryContent"></div>
+        </div>
+    </div>
+
+
+    <!-- 👨‍👩‍👦‍👦 SCENE 3 -->
+    <section class="scene scene-3">
+        <h2 class="scene-title">Together, We Became a Family</h2>
+
+        <p class="scene-text">
+            Thank you for being the most loving husband and the best father our sons could ever have.
+        </p>
+
+        <div class="family-stack">
+            <div class="family-card reveal">
+                <img src="assets/images/3.jpeg">
+                <span>Our little world ❤️</span>
+            </div>
+
+            <div class="family-card reveal">
+                <img src="assets/images/4.jpeg">
+                <span>Moments that matter</span>
+            </div>
+
+            <div class="family-card reveal">
+                <img src="assets/images/2.jpeg">
+                <span>Forever us</span>
+            </div>
+
+            <div class="family-card reveal">
+                <img src="assets/images/1.jpeg">
+                <span>Home is you</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 🎥 SCENE 4 -->
+    <section class="scene scene-4">
+        <h2 class="scene-title">Moments That Feel Like Forever</h2>
+
+        <div class="cinema">
+            <!-- MAIN VIDEO -->
+            <div class="video-card main-video reveal">
+                <video controls>
+                    <source src="assets/images/mrg.mp4" type="video/mp4">
+                </video>
+                <p class="video-caption">Our laughter, our love, our forever</p>
+            </div>
+
+            <!-- SECONDARY VIDEO -->
+            <div class="video-card side-video reveal" style="display:none">
+                <video controls>
+                    <source src="assets/videos/memory2.mp4" type="video/mp4">
+                </video>
+                <p class="video-caption">Little moments that mean everything</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 💌 SCENE 5 -->
+    <section class="scene scene-5">
+        <h2 class="scene-title">From My Heart</h2>
+        <div class="gratitude-letter">
+            <p>
+                In you, I found love, friendship, strength, and home.<br><br>
+                Thank you for choosing me, loving me, and building this beautiful life with me.
+            </p>
+        </div>
+    </section>
+
+    <!-- 🌹 SCENE 6 -->
+  <section class="scene scene-6">
+  <h2 class="scene-title magic-title">Forever Valentine Magic</h2>
+
+  <!-- FLOATING QUOTES -->
+  <div class="magic-quotes">
+    <span style="--i:1">Forever with you 💕</span>
+    <span style="--i:2">You are my always ❤️</span>
+    <span style="--i:3">My heart chose you 💖</span>
+    <span style="--i:4">Endlessly us ✨</span>
+  </div>
+
+  <!-- GIF CARDS -->
+  <div class="magic-gifs">
+    <div class="gif-card">
+      <img src="assets/images/g1.jpeg">
+    </div>
+    <div class="gif-card">
+      <img src="assets/images/g2.jpeg">
+    </div>
+    <div class="gif-card">
+      <img src="assets/images/g3.jpeg">
+    </div>
+  </div>
+</section>
+
+
+    <!-- 🌙 SCENE 7 -->
+    <section class="scene scene-7">
+        <div class="ending-wrapper">
+            <h2 class="ending-title">Our story isn’t finished…</h2>
+
+            <p class="ending-sub">
+                It’s only getting more beautiful.
+            </p>
+
+            <div class="ending-divider"></div>
+
+            <button class="ending-btn" id="loveBtn">
+                I Love You ❤️
+            </button>
+        </div>
+    </section>
+
+
+    <!-- 💓 FINAL – OPEN MY HEART -->
+    <section class="scene final-scene">
+        <!-- HEART -->
+        <div class="heart-stage" id="heartStage">
+            <div class="big-heart" id="heart">
+                <div class="heart-half left"></div>
+                <div class="heart-half right"></div>
+            </div>
+            <p class="heart-invite">Click to open my heart ❤️</p>
+        </div>
+
+        <!-- LETTER -->
+        <div class="letter-stage" id="finalLetter">
+            <div class="letter-paper">
+                <p class="letter-text" id="typedText"></p>
+                <span class="signature">Forever yours ❤️</span>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/valentine.js"></script>
+</body>
+
+</html>
